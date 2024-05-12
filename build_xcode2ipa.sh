@@ -20,7 +20,7 @@ xcodebuild -project $PROJECT_PATH \
 # ipaファイルの作成
 xcodebuild -exportArchive -archivePath $ARCHIVE_PATH \
     -exportPath $IPA_DIR \
-    # -exportOptionsPlist $EXPORT_OPTIONS_PLIST
+    -exportOptionsPlist $EXPORT_OPTIONS_PLIST
 
 echo "Finish ipa build"
 
