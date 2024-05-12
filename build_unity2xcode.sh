@@ -2,6 +2,8 @@
 
 echo "Start Unity build"
 
+cd ./Desktop/unity-jenkins-build-test
+
 UNITY_APP_PATH="/Applications/Unity/Hub/Editor/2023.2.20f1/Unity.app/Contents/MacOS/Unity"
 UNITY_PROJECT_PATH="./"
 UNITY_LOG_PATH="./Builds/build.log"
