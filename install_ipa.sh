@@ -4,7 +4,7 @@ echo "Start install"
 
 # Jenkinsのジョブからios-deployを利用するためローカルコマンドへのパスを通す
 export PATH=/usr/local/bin:$PATH
-source ~/.bashrc
+source ~/.zshrc
 
 # $IPA_DIRはbuild_xcode2ipa.shから引き継ぐ
 cd $IPA_DIR
